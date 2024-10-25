@@ -48,6 +48,9 @@ body{
         filter: none;
     }
 }
+.mobile-menu, .mobile-btn{
+    display: none;
+}
 
 .nav-menu{
     display: flex;
@@ -458,4 +461,5 @@ body{
     font-size: 50px;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 50%;
 }

@@ -1,0 +1,134 @@
+@media screen and (max-width: 600px){
+    html{
+        max-width: 100vh;
+    }
+    body{
+        width: 100%;
+        /* overflow-x: hidden; */
+    }
+    .menu{
+        width: 100%;
+        height: 50px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .eu{
+        width: 100%;
+    }
+    .box-eu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 800px;
+        gap: 50px;
+    
+        
+    }
+
+    .imagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+    }
+
+    .foto-minha{
+        width: 70%;
+        height: auto;
+    }
+    .ex-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+        width: 300px;
+        transform: translateX(50px);
+        animation: ex-1 2.8s normal;
+        animation-timeline: view();
+        animation-delay: 0.5s;
+    }
+    .text-sobre-ex-1{
+        display: flex;
+        width: 400px;
+        height: 300px;
+        font-size: 18px;
+        text-align: start;
+
+    }
+    .img-ex-1{
+        display: none;
+    }
+    .ex-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+        width: 300px;
+        transform: translateX(50px);
+        animation: ex-1 2.8s normal;
+        animation-timeline: view();
+        animation-delay: 0.5s;
+    }
+    .text-sobre-ex-2{
+        display: flex;
+        width: 400px;
+        height: 300px;
+        font-size: 18px;
+        text-align: start;
+    }
+    .img-ex-2{
+        display: none;
+    }
+    .ex-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+        width: 300px;
+        transform: translateX(50px);
+        animation: ex-1 2.8s normal;
+        animation-timeline: view();
+        animation-delay: 0.5s;
+    }
+    .text-sobre-ex-3{
+        display: flex;
+        width: 400px;
+        height: 300px;
+        font-size: 18px;
+        text-align: start;
+    }
+    .img-ex-3{
+        display: none;
+    }
+    .ex-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+        width: 300px;
+        transform: translateX(50px);
+        animation: ex-1 2.8s normal;
+        animation-timeline: view();
+        animation-delay: 0.5s;
+    }
+    .text-sobre-ex-4{
+        display: flex;
+        width: 400px;
+        height: 300px;
+        font-size: 18px;
+        text-align: start;
+    }
+    .img-ex-4{
+        display: none;
+    }
+  
+
+}
