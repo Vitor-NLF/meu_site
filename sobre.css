@@ -1,0 +1,178 @@
+.item-eu{
+    color: rgba(203, 184, 255, 0.705);
+    text-decoration: none;
+    position: relative;
+}
+.item-eu:hover{
+    font-style:italic ;
+}
+.item-exp{
+    color: rgba(203, 184, 255, 0.705);
+    text-decoration: none;
+    position: relative;
+}
+.item-exp:hover{
+    font-style:italic ;
+}
+.item-proj{
+    color: rgba(203, 184, 255, 0.705);
+    text-decoration: none;
+    position: relative;
+}
+.item-proj:hover{
+    font-style:italic ;
+}
+
+/* .titulo-box-eu{
+    display: flex;
+    margin-top: 18%;
+    width: 100%;
+    justify-content: center;
+    font-family: "Bangers", system-ui;
+    font-size: 50px;
+    font-weight: 400;
+    animation: balancar 3s alternate infinite;
+} */
+/* @keyframes balancar{
+    0%{
+        transform: perspective(0);
+    }
+    50%{
+        transform: perspectiveY(20PX);
+    }
+    100%{
+        transform: perspective(50px);
+    }
+} */
+
+.titulo-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    margin-top: 20%;
+    font-family: "Bangers", system-ui;
+    font-size: 50px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.titulo-box span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.titulo-box span:hover {
+    transform: translateY(-10px);
+}
+
+.box-eu{
+    display: flex;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 450px;
+    flex-direction: row;
+    opacity: 0;
+    transform: translateX(500px);
+    animation: fadeInUp 2.8s forwards;
+    animation-delay: 0.5s; 
+    gap: 50px;
+
+}
+@keyframes fadeInUp{
+    to {
+        opacity: 10;
+        transform: perspective(50px);
+    }
+}
+
+/* Ativação ao rolar */
+:target {
+    opacity: 10;
+    transform: translateY(50px);
+}
+
+
+.descricao{
+    /* background-color: black; */
+    margin: 60px;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 10px;
+    font-family: "Bangers", system-ui;
+    font-size: 28px;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    /* background-color: aliceblue; */
+    animation: mover 3s alternate infinite;
+    /* background-color: aliceblue; */
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateX(10px) translateX(-10px); /* Mova 100px para a direita */
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.foto-minha{
+    border-radius: 50%;
+    transition-duration: 0.3s;
+  
+}
+
+.foto-minha:hover{
+    transform: scale(1.10);
+}
+
+@media screen and (max-width: 600px){
+    .titulo-box-eu{
+        margin-top: 50%;
+    }
+    .eu{
+        width: 100%;
+        margin-bottom: 40%;
+    }
+    .box-eu{
+        margin-top:20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 800px;
+        gap: 50px;
+    }
+    .descricao{
+        width: 90% ;
+    }
+
+    .imagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+    }
+
+    .foto-minha{
+        width: 70%;
+        height: auto;
+    }
+}
