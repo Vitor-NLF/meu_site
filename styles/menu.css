@@ -89,11 +89,15 @@ body{
 .lista-menu a:hover::after {
     width: 100%; /* Expande para o tamanho do texto */
 }
-.item-lista{
-    display: inline;
-    cursor: pointer;
-   
+.item{
+    color: rgba(203, 184, 255, 0.705);
+    position: relative;
 }
+.item:hover{
+    font-style:italic ;
+}
+
+
 
 @media screen and (max-width: 600px){
     html{

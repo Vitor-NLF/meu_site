@@ -1,27 +1,4 @@
-.item-eu{
-    color: rgba(203, 184, 255, 0.705);
-    text-decoration: none;
-    position: relative;
-}
-.item-eu:hover{
-    font-style:italic ;
-}
-.item-exp{
-    color: rgba(203, 184, 255, 0.705);
-    text-decoration: none;
-    position: relative;
-}
-.item-exp:hover{
-    font-style:italic ;
-}
-.item-proj{
-    color: rgba(203, 184, 255, 0.705);
-    text-decoration: none;
-    position: relative;
-}
-.item-proj:hover{
-    font-style:italic ;
-}
+
 
 /* .titulo-box-eu{
     display: flex;
@@ -56,6 +33,7 @@
     font-size: 50px;
     font-weight: 400;
     cursor: default;
+
 }
 
 .titulo-box span {
@@ -77,7 +55,7 @@
     transform: translateX(500px);
     animation: fadeInUp 2.8s forwards;
     animation-delay: 0.5s; 
-    gap: 50px;
+    gap: 10%;
 
 }
 @keyframes fadeInUp{
@@ -107,6 +85,9 @@
     font-size: 28px;
     font-weight: 200;
     font-style: normal;
+}
+.text-desc{
+    margin: 10%;
 }
 
 .imagem{
