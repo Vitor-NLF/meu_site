@@ -5,11 +5,13 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     max-width: 100vw;
-    background: linear-gradient(to bottom, #333268, #55498a, #6456a5, #6657aa, #625592, #4c4b8a); 
+    background: linear-gradient(to bottom, #8483d7, #887bbe, #7b6dba, #7d6ebc, #8270c2, #7e7cde); 
     overflow-x: hidden;
 }
 

@@ -1,3 +1,7 @@
+#experiencias{
+    margin: 20px;
+}
+
 .titulo-box-experiencias{
     display: flex;
     width: 100vw;
@@ -28,11 +32,11 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
 }
 
-.titulo-sql{
+.titulo-exp{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -42,240 +46,28 @@
     font-weight: 400;
     font-style: normal;
 }
-.ex-1{
+.ex{
     /* background-color: silver; */
     background: linear-gradient(350deg, #2c2c2c, #303030, #414141);
     color: rgb(126, 145, 206);
     display: flex;
     width: 50%;
-    height: 300px;
-    flex-direction: row;
+    height: 600px;
+    flex-direction: column;
     border-radius: 50px;
     align-items: center;
     justify-content: center;
-    gap: 10%;
-    opacity: 0;
-    transform: translateX(300px);
-    animation: ex-1 2.8s normal;
-    animation-timeline: view();
-    animation-delay: 0.5s;
-    /* animation-range: entry 0% cover 90%;  */
-
-}
-@keyframes ex-1{
-    to {
-        opacity: 10;
-        transform: perspective(50px);
-    } 
 }
 
-/* Ativação ao rolar */
-:target {
-    opacity: 10;
-    transform: translate(50px);
-}
-
-.text-sobre-ex-1{
+.text-sobre-ex{
+    /* background-color: white; */
     display: flex;
+    width: 80%;
+    height: 80%;
     justify-items: center;
     align-items: center;
-    margin: 20px;
+    font-size: 20px;
 }
-.img-ex-1{
-    display: flex;
-    width: 60%;
-    height: auto;
-    margin-right: 100px;
-
-}
-.img-ex-1 img{
-    display: flex;
-    width: 100%;
-    border-radius: 50%;
-}
-
-.titulo-python{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Bangers", system-ui;
-    font-size: 40px;
-    font-weight: 400;
-    font-style: normal;
-}
-.ex-2{
-    /* background-color: silver; */
-    background: linear-gradient(350deg, #2c2c2c, #303030, #414141);
-    color: rgb(126, 145, 206);
-    display: flex;
-    width: 50%;
-    height: 300px;
-    flex-direction: row;
-    border-radius: 50px;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transform: translateX(-300px);
-    animation: ex-2 2.8s normal;
-    animation-timeline: view();
-    animation-delay: 0.5s; 
-}
-@keyframes ex-2{
-    to {
-        opacity: 10;
-        transform: perspective(50px);
-    }
-}
-
-/* Ativação ao rolar */
-:target {
-    opacity: 10;
-    transform: translate(50px);
-}
-.text-sobre-ex-2{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin: 20px;
-    width: 50%;
-}
-
-
-.img-ex-2{
-    display: flex;
-    width: 30%;
-    height: auto;
-    margin-right: 100px;
-}
-.img-ex-2 img{
-    display: flex;
-    width: 100%;
-    border-radius: 50%;
-}
-
-.titulo-html-css{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Bangers", system-ui;
-    font-size: 40px;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.ex-3{
-    /* background-color: silver; */
-    background: linear-gradient(350deg, #2c2c2c, #303030, #414141);
-    color: rgb(126, 145, 206);
-    display: flex;
-    width: 50%;
-    height: 300px;
-    flex-direction: row;
-    border-radius: 50px;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transform: translateX(300px);
-    animation: ex-2 2.8s normal;
-    animation-timeline: view();
-    animation-delay: 0.5s; 
-}
-@keyframes ex-2{
-    to {
-        opacity: 10;
-        transform: perspective(50px);
-    }
-}
-
-/* Ativação ao rolar */
-:target {
-    opacity: 10;
-    transform: translate(50px);
-}
-.text-sobre-ex-3{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin: 20px;
-    width: 50%;
-}
-
-
-.img-ex-3{
-    display: flex;
-    width: 60%;
-    height: auto;
-    margin-right: 100px;
-}
-.img-ex-3 img{
-    display: flex;
-    width: 20%;
-    border-radius: 50%;
-}
-
-
-.titulo-modelos-ageis{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Bangers", system-ui;
-    font-size: 40px;
-    font-weight: 400;
-    font-style: normal;
-}
-.ex-4{
-    /* background-color: silver; */
-    background: linear-gradient(350deg, #2c2c2c, #303030, #414141);
-    color: rgb(126, 145, 206);
-    display: flex;
-    width: 50%;
-    height: 300px;
-    flex-direction: row;
-    border-radius: 50px;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transform: translateX(-300px);
-    animation: ex-4 2.8s normal;
-    animation-timeline: view();
-    animation-delay: 0.5s;
-    margin-bottom: 10%;
-}
-@keyframes ex-4{
-    to {
-        opacity: 10;
-        transform: perspective(50px);
-    }
-}
-
-/* Ativação ao rolar */
-:target {
-    opacity: 10;
-    transform: translate(50px);
-}
-
-.text-sobre-ex-4{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin: 20px;
-}
-.img-ex-4{
-    display: flex;
-    width: 60%;
-    height: 130px;
-    margin-right: 100px;
-
-}
-.img-ex-4 img{
-    display: flex;
-    width: 100%;
-    border-radius: 50%;
-}
-
 
 
 

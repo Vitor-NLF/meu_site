@@ -28,7 +28,7 @@
     justify-content: center;
     font-size: 3em;
     letter-spacing: 0.2em;
-    margin-top: 20%;
+    margin-top: 10%;
     font-family: "Bangers", system-ui;
     font-size: 50px;
     font-weight: 400;
@@ -96,7 +96,7 @@
     width: 20%;
     height: auto;
     /* background-color: aliceblue; */
-    animation: mover 3s alternate infinite;
+    animation: mover 2s alternate infinite;
     /* background-color: aliceblue; */
 }
 
@@ -105,10 +105,10 @@
         transform: translateY(20px);
     }
     50% {
-        transform: translateX(10px) translateX(-10px); /* Mova 100px para a direita */
+        transform: translateX(10px) translateX(-30px); /* Mova 100px para a direita */
     }
     100% {
-        transform: translateY(20px);
+        transform: translateY(30px);
     }
 }
 
