@@ -1,27 +1,26 @@
 #experiencias{
-    margin: 20px;
+    margin: 2%;
 }
 
-.titulo-box-experiencias{
+.titulo-box-exp {
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     font-size: 3em;
     letter-spacing: 0.2em;
-    margin-top: 20%;
+    margin-top: 10%;
     font-family: "Bangers", system-ui;
     font-size: 50px;
     font-weight: 400;
     cursor: default;
-
 }
 
-.titulo-box-experiencias span {
+.titulo-box-exp span {
     display: inline-block;
     transition: transform 0.3s ease;
 }
 
-.titulo-box-experiencias span:hover {
+.titulo-box-exp span:hover {
     transform: translateY(-10px);
 }
 
@@ -33,8 +32,65 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
+    opacity: 1;
+    animation: apareca 1s forwards;
+    animation-timeline: scroll();
 }
+
+@keyframes apareca{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    30%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    50%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.box-experiencias2{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    opacity: 0;
+    animation: apareca 1s forwards;
+    animation-timeline: scroll();
+}
+
+@keyframes apareca{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    30%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    50%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
 
 .titulo-exp{
     width: 100%;
@@ -66,13 +122,13 @@
     height: 80%;
     justify-items: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 22px;
+    
 }
 
 
-
 @media screen and (max-width: 600px){
-    .ex-1{
+    .ex{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -84,81 +140,11 @@
         animation-timeline: view();
         animation-delay: 0.5s;
     }
-    .text-sobre-ex-1{
+    .text-sobre-ex{
         display: flex;
         width: 400px;
         height: 300px;
         font-size: 18px;
         text-align: start;
-
-    }
-    .img-ex-1{
-        display: none;
-    }
-    .ex-2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 400px;
-        width: 300px;
-        transform: translateX(50px);
-        animation: ex-1 2.8s normal;
-        animation-timeline: view();
-        animation-delay: 0.5s;
-    }
-    .text-sobre-ex-2{
-        display: flex;
-        width: 400px;
-        height: 300px;
-        font-size: 18px;
-        text-align: start;
-    }
-    .img-ex-2{
-        display: none;
-    }
-    .ex-3{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 400px;
-        width: 300px;
-        transform: translateX(50px);
-        animation: ex-1 2.8s normal;
-        animation-timeline: view();
-        animation-delay: 0.5s;
-    }
-    .text-sobre-ex-3{
-        display: flex;
-        width: 400px;
-        height: 300px;
-        font-size: 18px;
-        text-align: start;
-    }
-    .img-ex-3{
-        display: none;
-    }
-    .ex-4{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 400px;
-        width: 300px;
-        transform: translateX(50px);
-        animation: ex-1 2.8s normal;
-        animation-timeline: view();
-        animation-delay: 0.5s;
-    }
-    .text-sobre-ex-4{
-        display: flex;
-        width: 400px;
-        height: 300px;
-        font-size: 18px;
-        text-align: start;
-    }
-    .img-ex-4{
-        display: none;
     }
 }

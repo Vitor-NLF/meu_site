@@ -1,50 +1,33 @@
 
-
-/* .titulo-box-eu{
+.titi{
     display: flex;
-    margin-top: 18%;
-    width: 100%;
     justify-content: center;
-    font-family: "Bangers", system-ui;
-    font-size: 50px;
-    font-weight: 400;
-    animation: balancar 3s alternate infinite;
-} */
-/* @keyframes balancar{
-    0%{
-        transform: perspective(0);
-    }
-    50%{
-        transform: perspectiveY(20PX);
-    }
-    100%{
-        transform: perspective(50px);
-    }
-} */
+}
+@keyframes maquinaDeEscrever {
+    0% {
+        width: 0; /* Inicialmente a largura é zero */
 
-.titulo-box {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    font-size: 3em;
-    letter-spacing: 0.2em;
-    margin-top: 10%;
-    font-family: "Bangers", system-ui;
-    font-size: 50px;
-    font-weight: 400;
-    cursor: default;
-
+    }
+    100% {
+        width: 100%; /* Largura total do texto */
+        opacity: 1;
+    }
+}
+h1.maquina-de-escrever {
+    opacity: 0;
+    margin-top: 20%;
+    font-size: 10em;
+    white-space: nowrap; /* Não permite que o texto quebre linha */
+    overflow: hidden; /* Esconde o texto que ultrapassa o limite */
+    border-right: 3px solid black; /* Simula o cursor da máquina de escrever */
+    animation: maquinaDeEscrever 4s steps(30) 2s forwards, blink 1.75s step-end infinite; /* Animação da máquina de escrever + cursor piscando */
 }
 
-.titulo-box span {
-    display: inline-block;
-    transition: transform 0.3s ease;
+@keyframes blink {
+    50% {
+        border-color: transparent; /* Faz o "cursor" piscar */
+    }
 }
-
-.titulo-box span:hover {
-    transform: translateY(-10px);
-}
-
 .box-eu{
     display: flex;
     /* background-color: aqua; */
@@ -115,7 +98,15 @@
 .foto-minha{
     border-radius: 50%;
     transition-duration: 0.3s;
-  
+    animation: girar 4s forwards;
+}
+@keyframes girar{
+    0%{
+        transform: rotate(90px);
+    }
+    100%{
+        transform: rotate(100px);
+    }
 }
 
 .foto-minha:hover{

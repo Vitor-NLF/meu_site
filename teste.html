@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Máquina de Escrever</title>
+    <style>
+        /* Definindo a animação da máquina de escrever */
+        @keyframes maquinaDeEscrever {
+            0% {
+                width: 0; /* Inicialmente a largura é zero */
+            }
+            100% {
+                width: 100%; /* Largura total do texto */
+            }
+        }
+
+        body {
+            font-family: 'Courier New', monospace; /* Usando uma fonte de máquina de escrever */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1.maquina-de-escrever {
+            font-size: 2em;
+            white-space: nowrap; /* Não permite que o texto quebre linha */
+            overflow: hidden; /* Esconde o texto que ultrapassa o limite */
+            border-right: 3px solid black; /* Simula o cursor da máquina de escrever */
+            animation: maquinaDeEscrever 4s steps(30) 1s forwards, blink 0.75s step-end infinite; /* Animação da máquina de escrever + cursor piscando */
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent; /* Faz o "cursor" piscar */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="maquina-de-escrever">Este é o título com efeito de máquina de escrever!</h1>
+
+</body>
+</html>
