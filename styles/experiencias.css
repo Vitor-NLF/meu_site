@@ -128,23 +128,31 @@
 
 
 @media screen and (max-width: 600px){
-    .ex{
-        display: flex;
+    .titulo-box-exp{
+        width: 100%;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 400px;
-        width: 300px;
-        transform: translateX(50px);
-        animation: ex-1 2.8s normal;
-        animation-timeline: view();
-        animation-delay: 0.5s;
+        font-size: 38px;
+    }
+    .box-experiencias{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        flex-direction: column
+    }
+    .box-experiencias2{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        flex-direction: column
+    }
+    .ex{
+        width: 80%;
     }
     .text-sobre-ex{
-        display: flex;
-        width: 400px;
-        height: 300px;
-        font-size: 18px;
-        text-align: start;
+        width: 80%;
+        height: 50%;
+        font-size: 14px;
     }
 }

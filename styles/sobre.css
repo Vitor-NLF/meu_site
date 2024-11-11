@@ -14,18 +14,20 @@
     }
 }
 h1.maquina-de-escrever {
+    /* background-color: aqua; */
+    max-width: 20%;
     opacity: 0;
-    margin-top: 20%;
-    font-size: 10em;
-    white-space: nowrap; /* Não permite que o texto quebre linha */
-    overflow: hidden; /* Esconde o texto que ultrapassa o limite */
-    border-right: 3px solid black; /* Simula o cursor da máquina de escrever */
-    animation: maquinaDeEscrever 4s steps(30) 2s forwards, blink 1.75s step-end infinite; /* Animação da máquina de escrever + cursor piscando */
+    margin-top: 8%;
+    font-size: 5em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    animation: maquinaDeEscrever 4s steps(30) 2s forwards, blink 1.0s step-end infinite;
 }
 
 @keyframes blink {
     50% {
-        border-color: transparent; /* Faz o "cursor" piscar */
+        border-color: transparent;
     }
 }
 .box-eu{
@@ -68,11 +70,27 @@ h1.maquina-de-escrever {
     font-size: 28px;
     font-weight: 200;
     font-style: normal;
+    flex-direction: column;
 }
 .text-desc{
     margin: 10%;
 }
 
+.box-sociais{
+    width: 200px;
+    height: auto;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    gap: 10%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+#icon{
+    margin: 5px;
+}
 .imagem{
     display: flex;
     justify-content: center;
@@ -114,37 +132,44 @@ h1.maquina-de-escrever {
 }
 
 @media screen and (max-width: 600px){
-    .titulo-box-eu{
-        margin-top: 50%;
+    h1.maquina-de-escrever{
+        max-width: 80%;
+        opacity: 0;
+        margin-top: 30%;
+        font-size: 5em;
     }
     .eu{
         width: 100%;
         margin-bottom: 40%;
     }
     .box-eu{
-        margin-top:20%;
+        margin-top:2%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
         width: 100%;
-        height: 800px;
-        gap: 50px;
+        height: auto;
     }
     .descricao{
-        width: 90% ;
+        margin-top: 0;
+        width: 90%;
+        /* background-color: azure; */
+    }
+    .text-desc{
+        font-size: 18px;
     }
 
     .imagem{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
-        height: 80%;
+        width: 50%;
+        height: 50%;
     }
 
     .foto-minha{
-        width: 70%;
+        width: 80%;
         height: auto;
     }
 }

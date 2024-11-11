@@ -92,7 +92,7 @@ body{
     width: 100%; /* Expande para o tamanho do texto */
 }
 .item{
-    color: rgba(203, 184, 255, 0.705);
+    color: rgb(126, 145, 206);
     position: relative;
 }
 .item:hover{
@@ -107,7 +107,7 @@ body{
     }
     body{
         width: 100%;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
 
 

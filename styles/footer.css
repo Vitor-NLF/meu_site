@@ -1,0 +1,14 @@
+footer{
+    background: linear-gradient(350deg, #4e4e4e, #414141, #555555);
+}
+.foorter-itens{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8% 24px 8%;
+    align-items: center;
+}
+.copyright{
+    color: rgb(126, 145, 206);
+    font-weight: 500;
+    font-size: 22px;
+}
