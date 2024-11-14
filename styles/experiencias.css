@@ -149,14 +149,14 @@
         width: 100%;
         height: auto;
         justify-content: center;
-        flex-direction: column
+        flex-direction: column;
     }
     .box-experiencias2{
         display: flex;
         width: 100%;
         height: auto;
         justify-content: center;
-        flex-direction: column
+        flex-direction: column;
     }
     .ex{
         width: 80%;
@@ -165,5 +165,9 @@
         width: 80%;
         height: 50%;
         font-size: 14px;
+    }
+    #emb{
+        font-size: 32px;
+        color: rgb(126, 145, 206);
     }
 }
