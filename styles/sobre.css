@@ -22,7 +22,7 @@ h1.maquina-de-escrever {
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid black;
-    animation: maquinaDeEscrever 4s steps(30) 2s forwards, blink 1.0s step-end infinite;
+    animation: maquinaDeEscrever 6s steps(50) 0.8s forwards, blink 0.5s step-end infinite;
 }
 
 @keyframes blink {

@@ -125,7 +125,18 @@
     font-size: 22px;
     
 }
-
+.emblema{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+#emb{
+    font-size: 38px;
+    color: rgb(126, 145, 206);
+}
 
 @media screen and (max-width: 600px){
     .titulo-box-exp{
