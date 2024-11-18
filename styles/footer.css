@@ -1,5 +1,7 @@
 footer{
-    background: linear-gradient(350deg, #4e4e4e, #414141, #555555);
+    /* background: linear-gradient(350deg, #4e4e4e, #414141, #555555); */
+    background-color: black;
+    border-top: 4px solid rgb(126, 145, 206);
 }
 .foorter-itens{
     display: flex;

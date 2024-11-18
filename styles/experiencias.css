@@ -103,8 +103,8 @@
     font-style: normal;
 }
 .ex{
-    /* background-color: silver; */
-    background: linear-gradient(350deg, #2c2c2c, #303030, #414141);
+    background-color: black;
+    /* background: linear-gradient(350deg, #2c2c2c, #303030, #414141); */
     color: rgb(126, 145, 206);
     display: flex;
     width: 50%;
@@ -113,6 +113,7 @@
     border-radius: 50px;
     align-items: center;
     justify-content: center;
+    border: 5px solid rgb(126, 145, 206);
 }
 
 .text-sobre-ex{
