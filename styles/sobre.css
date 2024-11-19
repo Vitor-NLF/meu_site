@@ -51,10 +51,10 @@ h1.maquina-de-escrever {
 }
 
 /* Ativação ao rolar */
-:target {
+/* :target {
     opacity: 10;
     transform: translateY(50px);
-}
+} */
 
 .titulo-box-eu{
     width: 100%;

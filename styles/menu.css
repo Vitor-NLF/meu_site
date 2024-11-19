@@ -42,7 +42,7 @@ body{
     position: fixed;
     top: 0;
     z-index: 5;
-    border-bottom: 3px solid rgb(126, 145, 206);;
+    border-bottom: 4px solid rgb(126, 145, 206);;
 }
 @keyframes fade{
     from{
