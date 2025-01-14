@@ -31,33 +31,14 @@
     align-items: center;
     margin-top: 5%;
     gap: 30px;
-    opacity: 1;
-    animation: deslize 1s forwards;
-    animation-timeline: scroll();
+    opacity: 0; /* Inicialmente invisível */
+    transition: opacity 1s ease-in-out; /* Transição suave para opacidade */
 }
 
-@keyframes deslize{
-    0%{
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    30%{
-        opacity: 1;
-        transform: translateX(-100%);
-    }
-    50%{
-        opacity: 1;
-        transform: translateX(-100);
-    }
-    80%{
-        opacity: 1;
-        transform: translateX(-100);
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0);
-    }
+.box-projetos.visible {
+    opacity: 1; /* Torna o elemento visível quando a classe é adicionada */
 }
+
 .proj{
     background-color: black;
     /* background: linear-gradient(350deg, #2c2c2c, #303030, #414141); */

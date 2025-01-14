@@ -7,4 +7,3 @@ document.addEventListener('DOMContentLoaded', () => {
     const titulo3 = document.querySelector('.titulo-box-proj');
     titulo3.innerHTML = titulo3.textContent.split('').map(letter => `<span>${letter}</span>`).join('');
 });
-

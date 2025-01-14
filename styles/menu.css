@@ -5,6 +5,7 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -14,19 +15,18 @@ body{
     /* background: linear-gradient(to bottom, #8483d7, #887bbe, #7b6dba, #7d6ebc, #8270c2, #7e7cde);  */
     background-color: #5250be;
     overflow-x: hidden;
+    animation: aparicao 0.5s forwards;
 }
 
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
+@keyframes aparicao {
+    0%{
+        transform: translateX(-100%);
     }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
+    100%{
+        transform: translateX(0);
     }
 }
+
 
 
 

@@ -17,6 +17,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="menu.js"></script>
     <script src="titulo.js"></script>
+    <script src="aparecer.js" defer></script>
 </head>
 <body>
     <header class="menu" >
@@ -61,7 +62,15 @@
                 </div>
             </div>
             <div class="imagem">
-                <img src="imagens/IMG-20241114-WA0015.jpg" alt="" class="foto-minha">
+                <div class="imagem-inner">
+                    <div class="imagem-front">
+                        <img src="imagens/Mídia.jfif" alt="" class="foto-minha">
+                    </div>
+                    <div class="imagem-back">
+                        <p>nome: Vitor</p>
+                        <p>idade: 18</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -69,42 +78,68 @@
         <h1 class="titulo-box-exp">EXPERIÊNCIAS</h1>
         <div class="box-experiencias">
             <div class="ex">
-                <h1 class="titulo-exp">SQL</h1>
-                <div class="text-sobre-ex">
-                    Possuo conhecimento em SQL, com foco em bancos de dados. Executo atividades de forma eficiente com comandos como SELECT, JOIN, LEFT JOIN, RIGHT JOIN, entre outros, para extrair, organizar e integrar informações. Essa habilidade me permite estruturar dados com precisão, facilitando processos de análise e integração de dados de maneira intuitiva e eficaz.
-                </div>
-                <div class="emblema">
-                    <i class="fa-solid fa-database" id="emb"></i>
+                <div class="ex-inner">
+                    <div class="ex-front">
+                        <h1 class="titulo-exp">SQL</h1>
+                        <div class="emblema">
+                            <i class="fa-solid fa-database" id="emb"></i>
+                        </div>
+                    </div>
+                    <div class="ex-back">
+                        <div class="text-sobre-ex">
+                            Possuo conhecimento em SQL, com foco em bancos de dados. Executo atividades de forma eficiente com comandos como SELECT, JOIN, LEFT JOIN, RIGHT JOIN, entre outros, para extrair, organizar e integrar informações. Essa habilidade me permite estruturar dados com precisão, facilitando processos de análise e integração de dados de maneira intuitiva e eficaz.
+                        </div>
+
+                    </div>
                 </div>
             </div>
             <div class="ex">
-                <h1 class="titulo-exp">PYTHON</h1>
-                <div class="text-sobre-ex">
-                    Detenho competências em Python e domínio na utilização dessa linguagem de programação, que considero uma ferramenta versátil para resolver problemas e desenvolver soluções eficazes. Conheço suas principais funcionalidades e recursos, e estou sempre aprimorando minhas habilidades para aplicar o Python de forma prática e eficiente em projetos diversos.
-                </div>
-                <div class="emblema">
-                    <i class="fa-brands fa-python" id="emb"></i>
+                <div class="ex-inner">
+                    <div class="ex-front">
+                        <h1 class="titulo-exp">PYTHON</h1>
+                        <div class="emblema">
+                            <i class="fa-brands fa-python" id="emb"></i>
+                        </div>
+                    </div>
+                    <div class="ex-back">
+                        <div class="text-sobre-ex">
+                            Detenho competências em Python e domínio na utilização dessa linguagem de programação, que considero uma ferramenta versátil para resolver problemas e desenvolver soluções eficazes. Conheço suas principais funcionalidades e recursos, e estou sempre aprimorando minhas habilidades para aplicar o Python de forma prática e eficiente em projetos diversos.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="box-experiencias2">
             <div class="ex">
-                <h1 class="titulo-exp">HTML & CSS</h1>
-                <div class="text-sobre-ex">
-                    Domino habilidades em HTML e CSS e gosto de criar páginas que, embora simples, sejam visuais e intuitivas. Com foco na usabilidade, consigo desenvolver layouts agradáveis, mantendo a navegação prática e acessível para o usuário. Mesmo sem designs complexos, busco sempre criar soluções que funcionem bem e ofereçam uma boa experiência.
-                </div>
-                <div class="emblema">
-                    <i class="fa-brands fa-html5" id="emb"></i>
-                    <i class="fa-brands fa-css3-alt" id="emb"></i>
+                <div class="ex-inner">
+                    <div class="ex-front">
+                        <h1 class="titulo-exp">HTML & CSS</h1>
+                        <div class="emblema">
+                            <i class="fa-brands fa-html5" id="emb"></i>
+                            <i class="fa-brands fa-css3-alt" id="emb"></i>
+                        </div>
+                    </div>
+                    <div class="ex-back">                                       
+                        <div class="text-sobre-ex">
+                            Domino habilidades em HTML e CSS e gosto de criar páginas que, embora simples, sejam visuais e intuitivas. Com foco na usabilidade, consigo desenvolver layouts agradáveis, mantendo a navegação prática e acessível para o usuário. Mesmo sem designs complexos, busco sempre criar soluções que funcionem bem e ofereçam uma boa experiência.
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="ex">
-                <h1 class="titulo-exp">MODELOS ÁGEIS</h1>
-                <div class="text-sobre-ex">
-                    Tenho sólida experiência com metodologias ágeis, aplicando práticas como Scrum e Kanban para promover a eficiência, a colaboração e a adaptabilidade das equipes. Minha atuação envolve a facilitação de cerimônias ágeis, como reuniões de planejamento, retrospectivas e daily meetings, além do acompanhamento contínuo de tarefas para garantir entregas alinhadas aos objetivos do projeto e uma melhoria constante dos processos.
-                </div>
-                <div class="emblema">
-                    <i class="fa-solid fa-users-gear" id="emb"></i>
+                <div class="ex-inner">
+                    <div class="ex-front">
+                        <h1 class="titulo-exp">MODELOS ÁGEIS</h1>
+                        <div class="emblema">
+                            <i class="fa-solid fa-users-gear" id="emb"></i>
+                        </div>
+                    </div>
+                    <div class="ex-back">
+                        <div class="text-sobre-ex">
+                            Tenho sólida experiência com metodologias ágeis, aplicando práticas como Scrum e Kanban para promover a eficiência, a colaboração e a adaptabilidade das equipes. Minha atuação envolve a facilitação de cerimônias ágeis, como reuniões de planejamento, retrospectivas e daily meetings, além do acompanhamento contínuo de tarefas para garantir entregas alinhadas aos objetivos do projeto e uma melhoria constante dos processos.
+                        </div>
+                       
+                    </div>    
                 </div>
             </div>
         </div>
