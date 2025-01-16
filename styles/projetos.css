@@ -13,6 +13,7 @@
     font-size: 50px;
     font-weight: 400;
     cursor: default;
+    color: white;
 }
 
 .titulo-box-proj span {
@@ -40,9 +41,9 @@
 }
 
 .proj{
-    background-color: black;
+    background-color: #DCDCDC;
     /* background: linear-gradient(350deg, #2c2c2c, #303030, #414141); */
-    color: rgb(126, 145, 206);
+    color: black;
     display: flex;
     width: 50%;
     height: 600px;
@@ -51,9 +52,40 @@
     border-radius: 50px;
     align-items: center;
     justify-content: center;
-    border: 5px solid rgb(126, 145, 206);
+    border: 5px solid black;
+    overflow: hidden;
 
 }
+.proj-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+.proj:hover .proj-inner {
+    transform: rotateX(180deg);
+}
+.proj-front, .proj-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.proj-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.proj-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(180deg);
+}
+
 .text-sobre-proj{
     /* background-color: white; */
     display: flex;
@@ -62,6 +94,7 @@
     justify-items: center;
     align-items: center;
     font-size: 20px;
+    color: black;
     
 }
 @media screen and (max-width: 600px){

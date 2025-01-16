@@ -13,6 +13,7 @@
     font-size: 50px;
     font-weight: 400;
     cursor: default;
+    color: white;
 }
 
 .titulo-box-exp span {
@@ -114,9 +115,9 @@
     font-style: normal;
 }
 .ex{
-    background-color: black;
+    background-color: #DCDCDC;
     /* background: linear-gradient(350deg, #2c2c2c, #303030, #414141); */
-    color: rgb(126, 145, 206);
+    color: black;
     display: flex;
     width: 40%;
     height: 500px;
@@ -124,7 +125,7 @@
     border-radius: 50px;
     align-items: center;
     justify-content: center;
-    border: 5px solid rgb(126, 145, 206);
+    border: 5px solid black;
 }
 .ex-inner {
     width: 100%;
@@ -179,7 +180,7 @@
 }
 #emb{
     font-size: 38px;
-    color: rgb(126, 145, 206);
+    color: black;
 }
 
 @media screen and (max-width: 600px){
@@ -212,6 +213,6 @@
     }
     #emb{
         font-size: 32px;
-        color: rgb(126, 145, 206);
+
     }
 }

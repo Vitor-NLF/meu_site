@@ -1,7 +1,7 @@
 footer{
     /* background: linear-gradient(350deg, #4e4e4e, #414141, #555555); */
-    background-color: black;
-    border-top: 4px solid rgb(126, 145, 206);
+    background-color: #DCDCDC;
+    border-top: 4px solid black;
 }
 .foorter-itens{
     display: flex;
@@ -10,7 +10,7 @@ footer{
     align-items: center;
 }
 .copyright{
-    color: rgb(126, 145, 206);
+    color: black;
     font-weight: 500;
     font-size: 22px;
 }

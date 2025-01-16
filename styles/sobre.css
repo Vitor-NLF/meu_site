@@ -22,7 +22,7 @@ h1.maquina-de-escrever {
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid black;
-    animation: maquinaDeEscrever 14s steps(50) 0.8s forwards, blink 0.5s step-end infinite;
+    animation: maquinaDeEscrever 8s steps(50) 0.8s forwards, blink 0.5s step-end infinite;
 }
 
 @keyframes blink {
@@ -38,7 +38,7 @@ h1.maquina-de-escrever {
     flex-direction: row;
     opacity: 0;
     transform: translateX(500px);
-    animation: fadeInUp 8.8s forwards;
+    animation: fadeInUp 5.8s forwards;
     animation-delay: 0.5s; 
     gap: 10%;
 
