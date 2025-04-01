@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
     opacity: 0; /* Inicialmente invisível */
     transition: opacity 1s ease-in-out; /* Transição suave para opacidade */
 }
@@ -74,7 +74,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
     opacity: 0; /* Inicialmente invisível */
     transition: opacity 1s ease-in-out; /* Transição suave para opacidade */
 }
@@ -117,10 +117,11 @@
 .ex{
     background-color: #DCDCDC;
     /* background: linear-gradient(350deg, #2c2c2c, #303030, #414141); */
+    backdrop-filter: (12px);
     color: black;
     display: flex;
-    width: 40%;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     flex-direction: column;
     border-radius: 50px;
     align-items: center;

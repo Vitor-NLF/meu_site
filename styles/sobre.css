@@ -211,6 +211,7 @@ h1.maquina-de-escrever {
     }
     .imagem-back{
         width: 90%;
+        font-size: 20px;
         height: auto;
     }
     .foto-minha{
@@ -218,6 +219,6 @@ h1.maquina-de-escrever {
         height: auto;
     }
     .foto-minha:hover{
-        transform: scale(1.70);
+        /* transform: scale(1.70); */
     }
 }
