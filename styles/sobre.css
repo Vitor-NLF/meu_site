@@ -208,17 +208,16 @@ h1.maquina-de-escrever {
         width: 50%;
         height: 50%;
         margin: 30%;
+        /* background-color: orange; */
     }
     .imagem-back{
-        width: 90%;
+        width: 100%;
+        height: auto;
         font-size: 20px;
         height: auto;
     }
     .foto-minha{
-        width: 90%;
+        width: 100%;
         height: auto;
-    }
-    .foto-minha:hover{
-        /* transform: scale(1.70); */
     }
 }
