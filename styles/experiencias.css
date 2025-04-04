@@ -64,7 +64,7 @@
         opacity: 1;
         transform: translateX(0);
     }
-} */
+} 
 
 .box-experiencias2{
     display: flex;
@@ -75,12 +75,12 @@
     align-items: center;
     flex-direction: row;
     gap: 50px;
-    opacity: 0; /* Inicialmente invisível */
-    transition: opacity 1s ease-in-out; /* Transição suave para opacidade */
+    opacity: 0; /* Inicialmente invisível 
+    transition: opacity 1s ease-in-out; /* Transição suave para opacidade 
 }
 
 .box-experiencias2.visible {
-    opacity: 1; /* Torna o elemento visível quando a classe é adicionada */
+    opacity: 1; /* Torna o elemento visível quando a classe é adicionada 
 }
 
 @keyframes apareca{
@@ -99,9 +99,9 @@
     100%{
         opacity: 1;
         transform: translateX(0);
-    } */
+    } 
 }
-
+*/
 
 
 .titulo-exp{

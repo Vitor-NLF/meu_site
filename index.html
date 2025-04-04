@@ -3,175 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Vitão</title>
-    <link rel="stylesheet" href="styles/menu.css">
-    <link rel="stylesheet" href="styles/sobre.css">
-    <link rel="stylesheet" href="styles/experiencias.css">
-    <link rel="stylesheet" href="styles/projetos.css">
-    <link rel="stylesheet" href="style-media.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <title>Bem Vindoo</title>
+    <link rel="stylesheet" href="./styles/inicial.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=New+Rocker&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="menu.js"></script>
-    <script src="titulo.js"></script>
-    <script src="aparecer.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Tourney:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="menu" >
-        <nav class="nav-menu">
-            <ul class="lista-menu">
-                <li class="item-lista">
-                    <a class="item" href="#eu">EU</a>
-                </li>
-                <li class="item-lista">
-                    <a class="item" href="#experiencias">EXPERIÊNCIAS</a>
-                </li>
-                <li class="item-lista">
-                    <a class="item" href="#projetos">PROJETOS</a>
-                </li>
-            </ul>
-        </nav>
-        <button class="mobile-btn">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-        <div class="mobile-menu">
-            <ul class="mobile-nav-list">
-                <li class="nav-item"><a href="#eu">EU</a></li>
-                <li class="nav-item"><a href="#experiencias">EXPERIÊNCIAS</a></li>
-                <li class="nav-item"><a href="#projetos">PROJETOS</a></li>
-            </ul>
-        </div>
-    </header>
-    <section class="eu" id="eu">
-        <div class="titi">
-            <h1 class="maquina-de-escrever">VITOR</h1>
-        </div>
-        <div class="box-eu">
-            
-            <div class="descricao">
-                <h1 class="titulo-box-eu">Front-End & Dados</h1>                  
-                <p class="text-desc">Sou uma pessoa alegre e comunicativa, sempre buscando compartilhar ideias de forma clara e empática com quem está ao meu redor. Sou entusiasta de dados, com experiência básica em extração e manipulação de dados usando SQL, e com forte interesse em transformar dados em insights acionáveis. Meu conhecimento vai além dos dados, incluindo também o desenvolvimento front-end, com habilidades em HTML, CSS e JavaScript, sempre buscando criar interfaces intuitivas e funcionais. Atualmente, estou me aprofundando na área de dados, com foco em aplicar meus conhecimentos para criar soluções completas de análise e visualização que apoiem decisões estratégicas.</p>
-                <script src="text.js"></script>
-                <div class="box-sociais">
-                    <a href="https://www.linkedin.com/in/vitor-nascimento-459574311/"><i class="fa-brands fa-linkedin-in" style="color: black;" id="icon"></i></a>
-                    <a href="https://github.com/Vitor-NLF"><i class="fa-brands fa-github" style="color: black;" id="icon"></i></a></i>
-                    <a href="https://wa.me/5567992970317"><i class="fa-brands fa-whatsapp" style="color: black" id="icon"></i></a></i>
-                </div>
+<body class="body_inicial">
+    <section class="sessao">
+        <div class="area">
+            <img class="circulo_inicial_1" src="./imagens/circulo.png" alt="">
+            <img class="circulo_inicial_2" src="./imagens/circulo.png" alt="">
+            <div class="titulo">
+                <h1>Olá, Eu sou o Vitor!</h1>
             </div>
-            <div class="imagem">
-                <div class="imagem-inner">
-                    <div class="imagem-front">
-                        <img src="imagens/Mídia.jfif" alt="" class="foto-minha">
-                    </div>
-                    <div class="imagem-back">
-                        <p>nome: Vitor</p>
-                        <p>idade: 18</p>
-                    </div>
-                </div>
+            <div class="area_botoes">
+                <a href="./pages/sobre.html"><button>Sobre</button></a>
+                <a href="./pages/experiencias.html"><button>Experiencias</button></a>
+                <a href=""><button>Projetos</button></a>
             </div>
         </div>
     </section>
-    <section id="experiencias">
-        <h1 class="titulo-box-exp">EXPERIÊNCIAS</h1>
-        <div class="box-experiencias">
-            <div class="ex">
-                <div class="ex-inner">
-                    <div class="ex-front">
-                        <h1 class="titulo-exp">SQL</h1>
-                        <div class="emblema">
-                            <i class="fa-solid fa-database" id="emb"></i>
-                        </div>
-                    </div>
-                    <div class="ex-back">
-                        <div class="text-sobre-ex">
-                            Possuo conhecimento em SQL, com foco em bancos de dados. Executo atividades de forma eficiente com comandos como SELECT, JOIN, LEFT JOIN, RIGHT JOIN, entre outros, para extrair, organizar e integrar informações. Essa habilidade me permite estruturar dados com precisão, facilitando processos de análise e integração de dados de maneira intuitiva e eficaz.
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="ex">
-                <div class="ex-inner">
-                    <div class="ex-front">
-                        <h1 class="titulo-exp">PYTHON</h1>
-                        <div class="emblema">
-                            <i class="fa-brands fa-python" id="emb"></i>
-                        </div>
-                    </div>
-                    <div class="ex-back">
-                        <div class="text-sobre-ex">
-                            Detenho competências em Python e domínio na utilização dessa linguagem de programação, que considero uma ferramenta versátil para resolver problemas e desenvolver soluções eficazes. Conheço suas principais funcionalidades e recursos, e estou sempre aprimorando minhas habilidades para aplicar o Python de forma prática e eficiente em projetos diversos.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box-experiencias2">
-            <div class="ex">
-                <div class="ex-inner">
-                    <div class="ex-front">
-                        <h1 class="titulo-exp">HTML & CSS</h1>
-                        <div class="emblema">
-                            <i class="fa-brands fa-html5" id="emb"></i>
-                            <i class="fa-brands fa-css3-alt" id="emb"></i>
-                        </div>
-                    </div>
-                    <div class="ex-back">                                       
-                        <div class="text-sobre-ex">
-                            Domino habilidades em HTML e CSS e gosto de criar páginas que, embora simples, sejam visuais e intuitivas. Com foco na usabilidade, consigo desenvolver layouts agradáveis, mantendo a navegação prática e acessível para o usuário. Mesmo sem designs complexos, busco sempre criar soluções que funcionem bem e ofereçam uma boa experiência.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="ex">
-                <div class="ex-inner">
-                    <div class="ex-front">
-                        <h1 class="titulo-exp">MODELOS ÁGEIS</h1>
-                        <div class="emblema">
-                            <i class="fa-solid fa-users-gear" id="emb"></i>
-                        </div>
-                    </div>
-                    <div class="ex-back">
-                        <div class="text-sobre-ex">
-                            Tenho experiências com metodologias ágeis, aplicando práticas como Scrum e Kanban para promover a eficiência, a colaboração e a adaptabilidade das equipes.
-                        </div>
-                       
-                    </div>    
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="projetos">
-        <h1 class="titulo-box-proj">PROJETOS</h1>
-        <div class="box-projetos">
-            <div class="proj">
-                <div class="proj-inner">
-                    <div class="proj-front">
-                        <h1 class="titulo-exp">Projeto Integrador</h1>
-                        <h1 class="titulo-exp">APOLA</h1>
-                    </div>
-                    <div class="proj-back">
-                        <div class="text-sobre-proj">
-                            Um site de artesanato que está sendo desenvolvido juntamente com meus colegas de classe e tendo uma ajuda constante dos professores.
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="box-link">
-                    <a href="www.www.com">clique aqui para ver</a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="foorter-itens">
-            <span class="copyright">
-                &copy 2024 Vitor França
-            </span>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>

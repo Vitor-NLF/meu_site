@@ -1,0 +1,82 @@
+.body_exp{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.botao_voltar{
+    width: 100%;
+    justify-content: start;
+    display: flex;
+}
+.botao_voltar i{
+    font-size: 40px; /* Tamanho do ícone */
+    color: #8b38ff;  /* Cor do ícone (exemplo: tomate) */
+    transition: transform 0.3s ease;
+}
+.titulo_principal{
+    text-align: center;
+    font-size: 80px;
+    background: linear-gradient(to right, rgb(63, 212, 177), rgb(43, 100, 157), rgb(100, 53, 193));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.sessao_left{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.sessao_right{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: orange; */
+}
+.area{
+    width: 800px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+}
+.area p{
+    width: 50%;
+    font-size: 20px;
+}
+.fundo{
+    position: absolute;
+    width: 800px;
+    z-index: -3;
+}
+@media(max-width: 980px){
+    .sessao_left{
+        justify-content: center;
+    }
+    .sessao_right{
+        justify-content: center;
+    }
+    .fundo{
+        width: 450px;
+    }
+    .area p{
+        width: 300px;
+        height: 250px;
+        font-size: 16px;
+    }
+}
