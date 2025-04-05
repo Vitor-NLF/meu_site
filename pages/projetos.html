@@ -5,18 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos</title>
     <link rel="stylesheet" href="../styles/new_style/proj.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Tourney:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
-<body>
-    <section>
-        <div>
-            <img src="" alt="">
+<body class="body_proj">
+    <style>
+        .body_proj{
+            background-color: black;
+            height: 100vh;
+        }
+        .sessao_principal{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .area_star{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            width: 100%;
+            gap: 5rem;
+        }
+        .area_star i{
+            color: rgb(100, 53, 193);
+        }
+        .sessao{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* background-color: blue; */
+            width: 100%;
+            height: auto;
+        }
+        .area_front_verse{
+            display: flex;
+        }
+        .star_front{
+            position: absolute;
+        }
+        .box_back{
+            display: none;
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border: 1px solid white;
+            border-radius: 20px ;
+        }
+        .star_front:hover{
+            animation: girar 2s infinite;
+            /* display: none; */
+        }
+        @keyframes girar{
+            from{
+                transform: rotateX(0);
+            }
+            to{
+                transform: rotateY(180deg);
+            }
+        }
+        .star_front:hover, .box_back: :hover{
+            display: flex;
+        }
+        
+
+
+
+    </style>
+    <section class="sessao_principal">
+        <div class="area_star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
         </div>
+        <section class="sessao">
+            <div class="area_front_verse">
+                <img clas="star_front" src="../imagens/shape-circle-cutout-plus-shape.png" alt="">
+                <div class="box_back"></div>
+            </div>
+        </section>
+        <section class="sessao">
+            <div class="area_front_verse">
+                <img class="star_front" src="../imagens/shape-circle-cutout-plus-shape.png" alt="">
+                <div class="box_back"></div>
+            </div>
+        </section>
     </section>
-    <section>
-        <div>
-            <img src="" alt="">
-        </div>
-    </section>
+
 </body>
 </html>
