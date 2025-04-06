@@ -74,3 +74,37 @@
     border: 3px solid rgb(63, 212, 177);
 
 }
+
+@media(max-width: 1090px){
+    .circulo_inicial_1, .circulo_inicial_2{
+        width: 700px;
+    }
+    .area h1{
+        font-size: 70px;
+    }
+}
+@media(max-width: 980px){
+    .circulo_inicial_1, .circulo_inicial_2{
+        width: 400px;
+    }
+    .area h1{
+        font-size: 50px;
+    }
+}
+@media(max-width: 680px){ 
+    .area_botoes{
+        flex-direction: column;
+    }
+    .circulo_inicial_1, .circulo_inicial_2{
+        width: 300px;
+        margin-bottom: 10rem;
+    }
+    .body_inicial{
+        overflow-x: hidden;
+    }
+}
+@media(max-width: 500px){
+    .area h1{
+        font-size: 40px;
+    }
+}

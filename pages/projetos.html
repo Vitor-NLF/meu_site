@@ -12,73 +12,11 @@
 
 </head>
 <body class="body_proj">
-    <style>
-        .body_proj{
-            background-color: black;
-            height: 100vh;
-        }
-        .sessao_principal{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            gap: 2rem;
-        }
-        .area_star{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            width: 100%;
-            gap: 5rem;
-        }
-        .area_star i{
-            color: rgb(100, 53, 193);
-        }
-        .sessao{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            /* background-color: blue; */
-            width: 100%;
-            height: auto;
-        }
-        .area_front_verse{
-            display: flex;
-        }
-        .star_front{
-            position: absolute;
-        }
-        .box_back{
-            display: none;
-            position: absolute;
-            width: 300px;
-            height: 300px;
-            border: 1px solid white;
-            border-radius: 20px ;
-        }
-        .star_front:hover{
-            animation: girar 2s infinite;
-            /* display: none; */
-        }
-        @keyframes girar{
-            from{
-                transform: rotateX(0);
-            }
-            to{
-                transform: rotateY(180deg);
-            }
-        }
-        .star_front:hover, .box_back: :hover{
-            display: flex;
-        }
-        
-
-
-
-    </style>
+    <div class="botao_voltar">
+        <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+    </div>
     <section class="sessao_principal">
+        <h1 class="titulo_principal">projetos</h1>
         <div class="area_star">
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -92,18 +30,63 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
         </div>
-        <section class="sessao">
-            <div class="area_front_verse">
-                <img clas="star_front" src="../imagens/shape-circle-cutout-plus-shape.png" alt="">
-                <div class="box_back"></div>
-            </div>
+        <section class="sessao_secundaria">
+            <section class="sessao">
+                <img class="circulo_roxo" src="../imagens/circulo.png" alt="">
+                    <img class="circulo_rosa" src="../imagens/circulo_rosa.png" alt="">
+                <div class="container">
+                    <div class="area_card">
+                         <div class="card_frente">
+                            <h1>Porjeto 1</h1>
+                         </div>
+                        <div class="card_verso">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae temporibus atque tempore quia eum adipisci ab, in reiciendis magni repellendus nam est laborum accusamus iusto consectetur, ducimus nemo iure qui!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sessao">
+                <img class="circulo_roxo" src="../imagens/circulo.png" alt="">
+                    <img class="circulo_rosa" src="../imagens/circulo_rosa.png" alt="">
+                <div class="container">
+                    <div class="area_card">
+                         <div class="card_frente">
+                            <h1>Porjeto 2</h1>
+                         </div>
+                        <div class="card_verso">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae temporibus atque tempore quia eum adipisci ab, in reiciendis magni repellendus nam est laborum accusamus iusto consectetur, ducimus nemo iure qui!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sessao">
+                <img class="circulo_roxo" src="../imagens/circulo.png" alt="">
+                    <img class="circulo_rosa" src="../imagens/circulo_rosa.png" alt="">
+                <div class="container">
+                    <div class="area_card">
+                         <div class="card_frente">
+                            <h1>Porjeto 3</h1>
+                         </div>
+                        <div class="card_verso">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae temporibus atque tempore quia eum adipisci ab, in reiciendis magni repellendus nam est laborum accusamus iusto consectetur, ducimus nemo iure qui!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
-        <section class="sessao">
-            <div class="area_front_verse">
-                <img class="star_front" src="../imagens/shape-circle-cutout-plus-shape.png" alt="">
-                <div class="box_back"></div>
-            </div>
-        </section>
+        <div class="area_star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
     </section>
 
 </body>
