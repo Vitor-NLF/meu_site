@@ -137,12 +137,12 @@
 }
 @media(max-width: 1900px){
     .area_titulo{
-        width: 40%;
+        width: 60%;
     }
 }
 @media(max-width: 1000px){
     .area_titulo{
-        width: 100%;
+        width: 60%;
     }
     .fundo_circulo_sobre{
         width: 150px;
