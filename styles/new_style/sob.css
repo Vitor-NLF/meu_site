@@ -60,7 +60,13 @@
 .fundo_circulo_sobre{
     position: absolute;
     z-index: -2;
-    animation: girar 0.1ms linear infinite;
+    animation: girar 5s linear infinite;
+    width: 200px;
+}
+.fundo_circulo_sobre_reverse{
+    position: absolute;
+    z-index: -2;
+    animation: girar 5s linear infinite reverse;
     width: 200px;
 }
 @keyframes girar{

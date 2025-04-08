@@ -59,11 +59,13 @@
 
 }
 .circulo_roxo{
+    width: 400px;
     position: absolute;
     z-index: -3;
     animation: rotacionar 2s linear infinite;
 }
 .circulo_rosa{
+    width: 400px;
     position: absolute;
     z-index: -3;
     animation: rotacionar 2s linear infinite reverse;
