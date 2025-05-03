@@ -17,6 +17,9 @@
     color: #8b38ff;  /* Cor do ícone (exemplo: tomate) */
     transition: transform 0.3s ease;
 }
+.botao_voltar i:hover{
+    color: rgb(63, 212, 177);
+}
 .titulo_principal{
     text-align: center;
     font-size: 80px;
@@ -92,14 +95,24 @@
         font-size: 50px;
     }
     .fundo{
-        width: 390px;
+        width: 300px;
+    }
+    .sessao_left{
+        height: 400px;
+    }
+    .sessao_right{
+        height: 400px;
     }
     .area{
         justify-content: center;
         align-items: center;
+        /* background-color: orange; */
+        width: 200px;
+        height: 220px;
     }
     .area p{
         margin-bottom: 5rem;
-        width: 40%;
+        width: auto;
+        font-size: 10px;
     }
 }

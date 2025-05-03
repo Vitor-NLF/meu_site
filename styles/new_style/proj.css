@@ -12,6 +12,9 @@
     color: #8b38ff;  /* Cor do ícone (exemplo: tomate) */
     transition: transform 0.3s ease;
 }
+.botao_voltar i:hover{
+    color: rgb(63, 212, 177);
+}
 .sessao_principal{
     display: flex;
     align-items: center;
